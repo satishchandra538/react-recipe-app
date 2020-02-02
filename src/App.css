@@ -1,0 +1,77 @@
+body{
+  overflow-x: hidden;
+}
+.App {
+  width: 100%;
+  background-color: rgb(197, 21, 21);
+}
+.search-form{
+  margin: 0 auto;
+  text-align: center;
+  background-color: rgb(197, 21, 21);
+}
+.search-form input, .search-form input :focus{
+  outline: none;
+}
+.search-form button{
+  border: none;
+  background-color: rgb(128, 30, 30);
+  border-radius: 5px;
+  margin-left: 1px;
+  color: white;
+  height: 2.2rem;
+}
+.recipe{
+  background-color: rgb(247, 216, 158);
+  box-shadow: 5px 5px 10px gray;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+}
+.recipe h1{
+  color: rgb(114, 6, 6);
+  text-align: center;
+}
+.recipe p{
+margin: 0 auto;
+text-align: center;
+font-size: 1.3rem;
+text-shadow: 1px 1px orangered;
+}
+.recipe p span{
+  color: gray;
+}
+.recipe img{
+  float: left;
+  top: -2rem;
+  position: relative;
+  display: flex;
+  align-items: center;
+  border-radius: 15px;
+}
+.healthlabel{
+  position: relative;
+  left: 20%;
+}
+.healthlabel span{
+  background-color: rgb(206, 90, 36);
+  color: white;
+  border-radius: 2px;
+  padding: 10px;
+  margin-bottom: 5px;
+}
+.healthlabel li{
+  top: 10px;
+  position: relative;
+}
+.ingredient{
+  position: relative;
+  left: 20%;
+}
+.ingredient li{
+  top: 12px;
+  position: relative;
+}
+.ingredient li{
+  max-width: 60vw;
+}
